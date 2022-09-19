@@ -130,7 +130,6 @@
             this.Controls.Add(this.textBox1);
             this.Name = "frmSetting";
             this.Text = "frmSetting";
-            this.TopMost = true;
             this.Shown += new System.EventHandler(this.frmSetting_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
