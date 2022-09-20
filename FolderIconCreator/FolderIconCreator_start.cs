@@ -81,7 +81,7 @@ namespace FolderIconCreator
             get
             {
                 //ここにプラグインのバージョンを記述して下さい。
-                return "0.0.1";
+                return "0.0.2";
             }
         }
 
