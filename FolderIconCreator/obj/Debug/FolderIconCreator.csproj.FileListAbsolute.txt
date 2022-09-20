@@ -31,3 +31,5 @@ M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Debug\FolderIconCreator.cspro
 M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Debug\FolderIconCreator.csproj.CopyComplete
 M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Debug\FolderIconCreator.dll
 M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Debug\FolderIconCreator.pdb
+M:\github\MyPmxEditorPlugins\FolderIconCreator\bin\Debug\SlimDX.dll
+M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Debug\FolderIconCreator.Properties.Resources.resources

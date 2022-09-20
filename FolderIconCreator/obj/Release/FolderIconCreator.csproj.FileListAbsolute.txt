@@ -9,3 +9,5 @@ M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Release\FolderIconCreator.csp
 M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Release\FolderIconCreator.csproj.CopyComplete
 M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Release\FolderIconCreator.dll
 M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Release\FolderIconCreator.pdb
+M:\github\MyPmxEditorPlugins\FolderIconCreator\bin\Release\SlimDX.dll
+M:\github\MyPmxEditorPlugins\FolderIconCreator\obj\Release\FolderIconCreator.Properties.Resources.resources
