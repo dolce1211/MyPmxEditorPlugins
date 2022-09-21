@@ -25,14 +25,16 @@ namespace FolderIconCreator.UI
     {
         private IPERunArgs _args = null;
 
-        private Bitmap _backBmp = new Bitmap(@"C:\Users\dolce\OneDrive\Documents\computer_folderx.png");
+        //背景
+        private Bitmap _backBmp = null;
+
+        //前景
+        private Bitmap _foreBmp = null;
 
         /// <summary>
         /// クロマキー抜き対象の色
         /// </summary>
         private Color _chromakeyColor = Color.White;
-
-        private Bitmap _foreBmp = new Bitmap(@"C:\Users\dolce\OneDrive\Documents\directory-2.png");
 
         /// <summary>
         /// 設定
@@ -50,7 +52,8 @@ namespace FolderIconCreator.UI
 
             this._args = args;
             this._pmxPath = this._args.Host.Connector.Pmx.CurrentPath;
-            this.textBox1.Text = System.IO.Path.GetDirectoryName(this._pmxPath);
+            if (System.IO.File.Exists(this._pmxPath))
+                this.textBox1.Text = System.IO.Path.GetDirectoryName(this._pmxPath);
 
             //transformViewを出す
             if (!this._args.Host.Connector.View.TransformView.Visible)
@@ -166,7 +169,10 @@ namespace FolderIconCreator.UI
                         {
                             //モデルが切り替わったぽい
                             this._pmxPath = pmxpath;
-                            this.textBox1.Text = System.IO.Path.GetDirectoryName(this._pmxPath);
+
+                            this.textBox1.Text = "";
+                            if (System.IO.File.Exists(this._pmxPath))
+                                this.textBox1.Text = System.IO.Path.GetDirectoryName(this._pmxPath);
                         }
 
                         Bitmap bmp = null;

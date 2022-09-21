@@ -81,7 +81,7 @@ namespace FolderIconCreator
             get
             {
                 //ここにプラグインのバージョンを記述して下さい。
-                return "0.0.2";
+                return "0.0.3";
             }
         }
 
@@ -126,7 +126,7 @@ namespace FolderIconCreator
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "エラー", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show($"{ex.Message}\r\n\r\n{ex.StackTrace}", "エラー", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
